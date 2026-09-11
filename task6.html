@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Secure Checkout & Registration</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <form id="checkoutForm">
+    <label for="name">Full Name:</label>
+    <input type="text" id="name" name="name" required>
+    <div class="error-banner" id="nameError"></div>
+
+    <label for="username">Username (alphanumeric only):</label>
+    <input type="text" id="username" name="username" required>
+    <div class="error-banner" id="usernameError"></div>
+
+    <label for="email">Email:</label>
+    <input type="text" id="email" name="email" required>
+    <div class="error-banner" id="emailError"></div>
+
+    <button type="submit">Register</button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
